@@ -12,6 +12,8 @@
 		D12EDA752887F14E0088EE31 /* OysteriaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12EDA742887F14E0088EE31 /* OysteriaTests.swift */; };
 		D12EDA762887F14E0088EE31 /* Oysteria.h in Headers */ = {isa = PBXBuildFile; fileRef = D12EDA682887F14E0088EE31 /* Oysteria.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D12EDA802887F17F0088EE31 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12EDA7F2887F17F0088EE31 /* Validator.swift */; };
+		D12EDA822888122C0088EE31 /* Oysteria.podspec in Resources */ = {isa = PBXBuildFile; fileRef = D12EDA812888122C0088EE31 /* Oysteria.podspec */; };
+		D12EDA842888127B0088EE31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D12EDA832888127B0088EE31 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +33,8 @@
 		D12EDA6F2887F14E0088EE31 /* OysteriaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OysteriaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D12EDA742887F14E0088EE31 /* OysteriaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OysteriaTests.swift; sourceTree = "<group>"; };
 		D12EDA7F2887F17F0088EE31 /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		D12EDA812888122C0088EE31 /* Oysteria.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Oysteria.podspec; sourceTree = "<group>"; };
+		D12EDA832888127B0088EE31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,7 @@
 		D12EDA5B2887F14E0088EE31 = {
 			isa = PBXGroup;
 			children = (
+				D12EDA812888122C0088EE31 /* Oysteria.podspec */,
 				D12EDA672887F14E0088EE31 /* Oysteria */,
 				D12EDA732887F14E0088EE31 /* OysteriaTests */,
 				D12EDA662887F14E0088EE31 /* Products */,
@@ -76,6 +81,7 @@
 				D12EDA682887F14E0088EE31 /* Oysteria.h */,
 				D12EDA692887F14E0088EE31 /* Oysteria.docc */,
 				D12EDA7F2887F17F0088EE31 /* Validator.swift */,
+				D12EDA832888127B0088EE31 /* Assets.xcassets */,
 			);
 			path = Oysteria;
 			sourceTree = "<group>";
@@ -180,6 +186,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D12EDA842888127B0088EE31 /* Assets.xcassets in Resources */,
+				D12EDA822888122C0088EE31 /* Oysteria.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

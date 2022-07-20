@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "Oysteria"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "A short description of Oysteria."
   spec.description  = "Desc"
 
@@ -17,6 +17,7 @@ Pod::Spec.new do |spec|
 
   # spec.resource  = "icon.png"
   # spec.resources = "Resources/*.png"
+  spec.resource_bundles  = { 'Oysteria' => ['Oysteria/**/*.*'] }
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
