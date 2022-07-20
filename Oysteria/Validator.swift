@@ -12,13 +12,13 @@ public final class Validator {
     print("Hello World from Oysteria")
   }
 
-  private lazy var uploadImage: UIImage = {
+  private static var uploadImage: UIImage = {
     let bundle = Bundle(for: Validator.self)
-    guard let image = UIImage(named: "img_upload", in: bundle, compatibleWith: nil) else { return UIImage() }
+    guard let image = UIImage(named: "ic_badge", in: bundle, compatibleWith: nil) else { return UIImage() }
     return image
   }()
 
-  public func getImageView() -> UIImageView {
+  public static func getImageView() -> UIImageView {
     let imageView = UIImageView()
     imageView.image = uploadImage
     return imageView
